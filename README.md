@@ -29,8 +29,8 @@ View of the SPA as a visitor (role: `visitor`).
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/library-booking-spa.git
-cd library-booking-spa
+git clone hhttps://github.com/co12bg-design/Jspruebadedesempe-o.git
+cd Cinema-reservation-spa
 ```
 
 ### 2. Install Dependencies
