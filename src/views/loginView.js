@@ -1,4 +1,4 @@
-import { loginController } from "@/controllers/login.controller";
+import { loginController } from "../controllers/login.controller";
 
 export default function loginView() {
   setTimeout(() => {
@@ -51,4 +51,7 @@ export default function loginView() {
 
     </div>
   `;
+  setTimeout(() => {
+    loadFunctions();
+  }, 0);
 }

@@ -1,4 +1,9 @@
+import { loadFunctions } from "../controllers/reservation.controller";
 export default function reservationView() {
+  setTimeout(() => {
+    loadFunctions();
+  }, 0);
+
   return `
     <div class="p-5">
 
@@ -15,12 +20,13 @@ export default function reservationView() {
           class="border p-2 rounded"
         >
 
-        <input
-          type="text"
-          id="functionId"
-          placeholder="Función"
+        <select
+          id="movieId"
           class="border p-2 rounded"
         >
+          <option value="">Selecciona una película</option>
+        </select>
+      
 
         <input
           type="text"
