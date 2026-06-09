@@ -1,12 +1,12 @@
 import loginView from "@/views/loginView";
 import homeView from "@/views/homeView";
-import ReservationCard from "../components/ReservationCard";
+import reservationView from "@/views/reservationView";
 
 
 const routes = {
   "/": loginView,
   "/home": homeView,
-  "/Reservar": ReservationCard,
+  "/reservar": reservationView,
 
 };
 
@@ -30,7 +30,7 @@ export const guide = () => {
 
   let path = window.location.pathname;
 
-  const card = routes[path] || ReservationCard;
+  const view = routes[path] || reservationView;
 
   app.innerHTML = view();
 };

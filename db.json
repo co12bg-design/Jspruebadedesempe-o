@@ -43,5 +43,18 @@
       "reason": "Daily Meeting",
       "status": "approved"
     }
+  ],
+     "functions": [
+    {
+      "id": 1,
+      "name": "Enredados",
+      "sala": "Sala A",
+      "room": "1",
+      "date": "2026-01-20",
+      "Hour": "14:00",
+      "capacity": 100,
+      "availableSeats": 50,
+      "$schema": "disponible"
+    }
   ]
 }
